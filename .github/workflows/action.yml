@@ -1,0 +1,12 @@
+name: Test Galicia Seguros
+
+on:
+  push:[main]
+  
+  jobs:
+    start-pipeline:
+      runs-on: ubuntu-latest
+      steps:
+      run echo "hola"
+  
+  
